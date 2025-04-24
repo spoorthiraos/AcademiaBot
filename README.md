@@ -1,1 +1,1 @@
-# Academicchatbot_AMCBOT
+#AcademiaBot
