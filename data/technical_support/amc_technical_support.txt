@@ -1,0 +1,69 @@
+
+Technical Support - AMC Chatbot
+
+1. Issues with the College Portal:
+- If you are unable to log into the AMC College portal, ensure that your student ID and password are correct. If you’ve forgotten your password, use the "Forgot Password" option.
+- For page not loading errors, try clearing your browser cache or using a different browser.
+- If you're facing issues with accessing your academic records, contact portal-support@amc.edu.
+
+2. Wi-Fi and Network-Related Problems:
+- Wi-Fi is available throughout the campus, including classrooms, library, and hostels. Use your student credentials to connect to the "MyJio" network.
+- If your device is not connecting, restart your device and try reconnecting.
+- For persistent Wi-Fi issues, report to the IT Helpdesk in the Admin Block, Room 104 or email wifi-support@amc.edu.
+- Network speed is generally high during off-peak hours (before 9 AM and after 5 PM).
+
+3. Troubleshooting Software Issues:
+- College computers are pre-installed with academic software such as MATLAB, AutoCAD, and MS Office.
+- For issues with accessing licensed software, contact software-support@amc.edu.
+- Students can request software installation on lab systems by submitting a request form to the IT Helpdesk.
+- Software updates are usually scheduled on weekends to minimize disruption.
+
+4. Troubleshooting Hardware Issues:
+- Students facing issues with college-issued laptops should report to the IT Helpdesk.
+- Common problems like screen flickering or unresponsive keyboard can be fixed within 1-2 working days.
+- For hardware replacement requests, approval from the Head of Department is required.
+- Loaner devices are available on a first-come-first-serve basis.
+
+5. Reporting and Support Contacts:
+- IT Helpdesk (Admin Block, Room 104) is open Monday to Friday, 9:00 AM to 5:00 PM.
+- General IT Queries: it-support@amc.edu
+- Emergency Tech Support Hotline: +91-9876543210
+
+6. Accessing Online Learning Platforms:
+- Students can access the official LMS (Learning Management System) at lms.amc.edu using their portal credentials.
+- For login issues, ensure that you are not using VPN or proxy servers, as they may block access.
+- Video lectures may buffer during peak hours; try downloading resources in advance when the network is stable.
+- For content-related issues (like missing notes or broken links), contact your course instructor or email lms-support@amc.edu.
+
+7. Printing and Scanning Services:
+- Printers and scanners are available in the Central Library and Computer Labs.
+- Use your student ID to log into the printing system. Each student gets 100 free black-and-white pages per semester.
+- Color printing is available at ₹5 per page. Recharge your print balance at the library front desk.
+- For issues like paper jams or toner problems, report to the Lab Assistant or email print-support@amc.edu.
+
+8. Smart Classrooms and AV Equipment:
+- Most lecture halls are equipped with projectors, smartboards, and sound systems.
+- Faculty can book classrooms with AV support through the Room Reservation Portal.
+- If the projector is not working, check the power and HDMI connections before reporting.
+- AV equipment maintenance is scheduled every Friday. Urgent repairs can be requested via av-support@amc.edu.
+
+9. Email and Communication Tools:
+- All students are provided with an institutional email (yourid@amc.edu). Check spam folders if you're missing emails from faculty.
+- For issues with email access or password reset, contact email-support@amc.edu.
+- Google Meet and Zoom are the recommended platforms for online classes and meetings. Ensure you are signed in with your AMC email for access.
+
+10. Labs and System Login Problems:
+- Students must use their student ID to log into lab systems. Default passwords are issued during orientation.
+- If you are locked out after multiple attempts, wait 15 minutes before trying again.
+- Lab Assistants are available from 8:30 AM to 6:00 PM to help with login and software issues.
+- Scheduled lab maintenance is communicated via email one day in advance.
+
+11. FAQs and Self-Help Guides:
+- A collection of self-help documents and video tutorials is available on the IT Help Portal: helpdesk.amc.edu/guides.
+- Common FAQs include how to reset passwords, connect to Wi-Fi, install software, and troubleshoot browser issues.
+- Students are encouraged to check the FAQ section before reaching out to support.
+
+12. Important Reminders:
+- Never share your passwords or student credentials with others.
+- Always log out of systems after use, especially on shared computers.
+- Report any suspicious activity to cybersecurity@amc.edu.

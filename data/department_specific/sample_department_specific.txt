@@ -1,0 +1,49 @@
+Department of Computer Science
+
+Faculty:
+- Dr. James Wilson, Department Chair (jwilson@amc.edu)
+- Dr. Sarah Chen, Associate Professor, AI and Machine Learning (schen@amc.edu)
+- Dr. Michael Rodriguez, Associate Professor, Software Engineering (mrodriguez@amc.edu)
+- Dr. Olivia Taylor, Assistant Professor, Cybersecurity (otaylor@amc.edu)
+- Dr. David Kim, Assistant Professor, Data Science (dkim@amc.edu)
+
+Degree Programs:
+- Bachelor of Science in Computer Science
+- Bachelor of Science in Software Engineering
+- Master of Science in Computer Science
+- Master of Science in Cybersecurity
+- PhD in Computer Science
+
+Required Courses for BS in Computer Science:
+- CS 101: Introduction to Programming
+- CS 201: Data Structures and Algorithms
+- CS 250: Computer Architecture
+- CS 301: Database Systems
+- CS 340: Operating Systems
+- CS 350: Computer Networks
+- CS 401: Software Engineering
+- CS 450: Theory of Computation
+- MATH 120: Calculus I
+- MATH 220: Discrete Mathematics
+
+Research Labs:
+- Artificial Intelligence and Machine Learning Lab (Room 301)
+- Cybersecurity Research Center (Room 401)
+- Human-Computer Interaction Lab (Room 305)
+- Big Data Analytics Center (Room 310)
+- Software Engineering Lab (Room 320)
+
+Department Resources:
+- Computer Labs: Rooms 201, 202, 203 (open 24/7 for CS majors)
+- Tutoring Services: Available Monday-Thursday, 5pm-8pm in Room 205
+- Student Organizations: CS Club, Women in Computing, Cybersecurity Club
+
+Advising Information:
+- Freshman/Sophomore Advisor: Ms. Jennifer Lee (jlee@amc.edu)
+- Junior/Senior Advisor: Mr. Robert Chen (rchen@amc.edu)
+- Graduate Program Director: Dr. Sarah Chen (schen@amc.edu)
+
+Internship Coordinator: Ms. Amelia Santos (asantos@amc.edu)
+Department Office: Science Building, Room 300
+Phone: (555) 345-6789
+Office Hours: Monday-Friday, 9am-4pm

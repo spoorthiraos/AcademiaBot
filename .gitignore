@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+*.pyo
+
+# Virtual Environment
+venv/
+env/
+
+# Environment Variables
+.env
+
+# Editor Configs
+.vscode/
+.idea/
+*.code-workspace
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# ChromaDB local database files (optional — keep if you want to track them)
+chroma/*.sqlite3
+chroma/*.bin
+
+# Logs and temp
+*.log
+*.tmp

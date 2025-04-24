@@ -1,0 +1,65 @@
+
+List of Experiments
+
+OBJECT ORIENTED PROGRAMMING WITH JAVA 
+LABORATORY 
+Course Code 21CSL35 CIE Marks 50 
+Teaching Hours/Week (L:T:P: S) 0:0:2:0 SEE Marks 50 
+Total Hours of Pedagogy 24 Total Marks 100 
+Credits 1 Exam Hours 03 
+
+Course Objectives:
+
+CLO 1. Demonstrate the use of Eclipse/Netbeans IDE to create Java Applications. 
+CLO 2. Using java programming to develop programs for solving real-world problems.
+CLO 3. Reinforce the understanding of basic object-oriented programming concepts. 
+
+Note: Two hours tutorial is suggested for each laboratory session. 
+
+Prerequisites:
+- Students should be familiarized about java installation and setting the java environment. 
+- Usage of IDEs like Eclipse/Netbeans should be introduced. 
+
+PART A – List of problems for which student should develop program and execute in the Laboratory
+
+1. Aim: Introduce the java fundamentals, data types, operators in java
+Program: Write a java program that prints all real solutions to the quadratic equation ax^2+bx+c=0. Read in a, b, c and use the quadratic formula.
+
+2. Aim: Demonstrating creation of java classes, objects, constructors, declaration and initialization of variables.
+Program: Create a Java class called Student with the following details as variables within it: USN, Name, Branch, Phone. Create n Student objects and print their details.
+
+3. Aim: Discuss the various Decision-making statements, loop constructs in java
+Program:
+A. Program to check prime number
+B. Arithmetic calculator using switch case menu
+
+4. Aim: Demonstrate the core object-oriented concept of Inheritance, polymorphism
+Program: Design a superclass called Staff and extend it with subclasses: Teaching, Technical, and Contract. Read and display details of staff objects.
+
+5. Aim: Introduce concepts of method overloading, constructor overloading, overriding.
+Program: Java program demonstrating Method overloading and Constructor overloading.
+
+6. Aim: Introduce the concept of Abstraction, packages.
+Program: Currency converter, distance converter, and time converter using packages.
+
+7. Aim: Introduction to abstract classes, abstract methods, and Interface in java
+Program: Generate resume using interface Resume. Implement in classes Teacher and Student.
+
+8. Aim: Demonstrate creation of threads using Thread class and Runnable interface, multi-threaded programming.
+Program: Multi-thread application with three threads - generates random number, computes square, and computes cube.
+
+9. Aim: Introduce java Collections.
+Program: String operations using ArrayList - append, insert, search, list by initial character.
+
+10. Aim: Exception handling in java, introduction to throwable class, throw, throws, finally.
+Program: Read two integers and compute division. Raise exception when denominator is zero.
+
+11. Aim: Introduce File operations in java.
+Program: Read a file name and display information about existence, readability, writability, type, and length.
+
+12. Aim: Introduce java Applet, awt, swings.
+Programs: Display a message using applet. Create a simple calculator using Swings.
+
+PART B – Practical Based Learning
+
+01. A problem statement for each batch is to be generated in consultation with the co-examiner and student should develop an algorithm, program, and execute it for the given problem.

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat - AMC Academic ChatAssist</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+  </head>
+  <body class="chat-page">
+    <nav class="navbar">
+      <div class="container">
+        <a href="{{ url_for('home') }}" class="logo">AMC Academic ChatAssist</a>
+        <div class="nav-links">
+          <a href="{{ url_for('home') }}">Home</a>
+          <a href="{{ url_for('about') }}">About</a>
+          <a href="{{ url_for('contact') }}">Contact</a>
+          <a href="{{ url_for('chat') }}" class="active btn-primary">Chat</a>
+          <a href="{{ url_for('logout') }}" class="btn-secondary">Logout</a>
+        </div>
+        <button class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="chat-container">
+      <div class="chat-sidebar">
+        <div class="user-info">
+          <div class="user-avatar">{{ name[0] }}</div>
+          <div class="user-name">{{ name }}</div>
+        </div>
+
+        <div class="mode-toggle">
+          <div class="toggle-label">Document Upload Mode</div>
+          <label class="switch">
+            <input
+              type="checkbox"
+              id="mode-toggle"
+              {%
+              if
+              document_mode
+              %}checked{%
+              endif
+              %}
+            />
+            <span class="slider round"></span>
+          </label>
+          <div class="toggle-status" id="toggle-status">
+            {% if document_mode %}ON{% else %}OFF{% endif %}
+          </div>
+        </div>
+
+        <div
+          class="upload-section"
+          id="upload-section"
+          {%
+          if
+          not
+          document_mode
+          %}style="display: none;"
+          {%
+          endif
+          %}
+        >
+          <h3>Upload Documents</h3>
+          <p class="upload-info">Supported formats: PDF, TXT, XLSX</p>
+
+          <form id="upload-form" enctype="multipart/form-data">
+            <div class="file-input-container">
+              <input
+                type="file"
+                id="file-input"
+                name="file"
+                accept=".pdf,.txt,.xlsx"
+              />
+              <label for="file-input" class="file-input-label"
+                >Choose File</label
+              >
+            </div>
+            <button type="submit" class="btn-upload">Upload</button>
+          </form>
+
+          <div class="upload-status" id="upload-status"></div>
+
+          <div class="uploaded-files" id="uploaded-files">
+            <h4>Uploaded Files</h4>
+            <ul class="files-list" id="files-list">
+              {% for file in uploaded_files %}
+              <li>{{ file }}</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+
+        <div class="chat-info">
+          <h3>How to use</h3>
+          <ul>
+            <li><strong>Standard Mode:</strong> Ask any academic questions</li>
+            <li>
+              <strong>Document Mode:</strong> Upload files and ask questions
+              about them
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="chat-main">
+        <div class="chat-header">
+          <h2>AMC Academic ChatAssist</h2>
+          <p>Ask any academic questions or upload documents to analyze</p>
+        </div>
+
+        <div class="chat-messages" id="chat-messages">
+          <div class="message bot-message">
+            <div class="message-content">
+              <p>
+                Hello {{ name }}! How can I assist you today with your academic
+                queries?
+              </p>
+            </div>
+            <div class="message-time">Just now</div>
+          </div>
+        </div>
+
+        <div class="chat-input">
+          <form id="chat-form">
+            <input
+              type="text"
+              id="user-input"
+              placeholder="Type your question here..."
+              autocomplete="off"
+            />
+            <button type="submit" id="send-button">
+              <span>Send</span>
+            </button>
+          </form>
+          <div class="typing-indicator" id="typing-indicator">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  </body>
+</html>

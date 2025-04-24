@@ -1,0 +1,47 @@
+Technical Support Resources
+
+IT Help Desk Services:
+- Account access issues
+- Password resets
+- Email configuration
+- Wi-Fi connectivity
+- Software installation assistance
+- Hardware troubleshooting
+- Virus/malware removal
+
+Campus Technology Resources:
+- Computer labs located in: Library (24/7), Engineering Building, Business Hall
+- Printing services: Available in all computer labs (100 free pages per semester)
+- Software licenses: Microsoft Office, Adobe Creative Cloud, MATLAB, SPSS
+- Cloud storage: 1TB OneDrive storage for all students and staff
+
+Network Information:
+- Campus Wi-Fi: "AMC-Secure" (requires university credentials)
+- Guest network: "AMC-Guest" (limited access, no password)
+- VPN access available for off-campus connections to university resources
+
+System Requirements:
+- Recommended laptop specs: 
+  - Processor: Intel i5/AMD Ryzen 5 or better
+  - RAM: 8GB minimum, 16GB recommended
+  - Storage: 256GB SSD minimum
+  - OS: Windows 10/11 or macOS 11+
+
+Common Technical Issues and Solutions:
+- Wi-Fi connectivity issues: Forget network and reconnect, update device drivers
+- Password reset: Visit password.amc.edu or call Help Desk
+- Email access problems: Check account.amc.edu for account status
+- Printing issues: Ensure correct printer selection and sufficient print balance
+
+Contact Information:
+- IT Help Desk: (555) 234-5678
+- Email: helpdesk@amc.edu
+- Location: Technology Center, Room 101
+- Hours: Monday-Friday 8am-8pm, Saturday 10am-4pm
+
+Online Resources:
+- Knowledge Base: kb.amc.edu
+- Service Status: status.amc.edu
+- Software Downloads: downloads.amc.edu
+
+Report phishing or security concerns immediately to security@amc.edu

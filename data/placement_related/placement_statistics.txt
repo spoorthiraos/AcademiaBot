@@ -1,0 +1,97 @@
+Placement Statistics (2019–2024)
+📅 Year: 2019
+Total Eligible Students: 450
+
+Total Placed: 370
+
+Highest CTC: ₹12 LPA
+
+Average CTC: ₹4.8 LPA
+
+Companies Visited: 42
+
+
+Department	Eligible	Placed	Placement %
+Computer Science	150	135	90%
+Electronics	140	110	78.6%
+Mechanical	160	125	78.1%
+📅 Year: 2020
+Total Eligible Students: 460
+
+Total Placed: 390
+
+Highest CTC: ₹14 LPA
+
+Average CTC: ₹5.2 LPA
+
+Companies Visited: 47
+
+
+Department	Eligible	Placed	Placement %
+Computer Science	160	145	90.6%
+Electronics	150	115	76.7%
+Mechanical	150	130	86.7%
+📅 Year: 2021
+Total Eligible Students: 480
+
+Total Placed: 410
+
+Highest CTC: ₹18 LPA
+
+Average CTC: ₹5.6 LPA
+
+Companies Visited: 52
+
+
+Department	Eligible	Placed	Placement %
+Computer Science	170	160	94.1%
+Electronics	155	120	77.4%
+Mechanical	155	130	83.9%
+📅 Year: 2022
+Total Eligible Students: 500
+
+Total Placed: 435
+
+Highest CTC: ₹21 LPA
+
+Average CTC: ₹6.0 LPA
+
+Companies Visited: 58
+
+
+Department	Eligible	Placed	Placement %
+Computer Science	180	170	94.4%
+Electronics	160	125	78.1%
+Mechanical	160	140	87.5%
+📅 Year: 2023
+Total Eligible Students: 510
+
+Total Placed: 455
+
+Highest CTC: ₹24 LPA
+
+Average CTC: ₹6.4 LPA
+
+Companies Visited: 61
+
+
+Department	Eligible	Placed	Placement %
+Computer Science	190	180	94.7%
+Electronics	160	130	81.3%
+Mechanical	160	145	90.6%
+📅 Year: 2024
+Total Eligible Students: 525
+
+Total Placed: 470
+
+Highest CTC: ₹26 LPA
+
+Average CTC: ₹7.0 LPA
+
+Companies Visited: 65
+
+
+Department	Eligible	Placed	Placement %
+Computer Science	200	190	95%
+Electronics	165	135	81.8%
+Mechanical	160	145	90.6%
