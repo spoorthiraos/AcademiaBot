@@ -6,6 +6,13 @@ from chromadb.config import Settings
 import json
 import uuid
 from typing import List, Dict, Any, Optional
+from better_profanity import profanity
+import logging
+
+# Initialize logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+
 
 # Create the chroma directory if it doesn't exist
 os.makedirs('chroma', exist_ok=True)
@@ -13,12 +20,23 @@ os.makedirs('chroma', exist_ok=True)
 # Initialize ChromaDB client with persistence
 chroma_client = chromadb.PersistentClient(path="./chroma")
 
+profanity.load_censor_words()
+
+def is_clean_text(text):
+    clean = not profanity.contains_profanity(text)
+    if not clean:
+        logger.warning("\n\nProfanity detected in the text.\n\n")
+    return clean
+
 # Ensure collections exist
 def ensure_collection_exists(collection_name: str):
     """Ensure the collection exists in ChromaDB."""
     try:
-        return chroma_client.get_collection(name=collection_name)
-    except:
+        collection = chroma_client.get_collection(name=collection_name)
+        logger.info(f"\n\nCollection '{collection_name}' already exists.\n\n")
+        return collection
+    except Exception as e:
+        logger.info(f"\n\nCollection '{collection_name}' does not exist. Creating it now.\n\n")
         return chroma_client.create_collection(name=collection_name)
 
 # Initialize all required collections
@@ -48,8 +66,10 @@ def extract_text_from_pdf(file_path: str) -> str:
             pdf_reader = pypdf.PdfReader(file)
             for page in pdf_reader.pages:
                 text += page.extract_text() + "\n"
+        logger.info(f"\n\nText extracted from PDF: {file_path}\n\n")
+
     except Exception as e:
-        print(f"Error extracting text from PDF: {e}")
+        logger.error(f"\n\nError extracting text from PDF {file_path}: {e}\n\n")
     return text
 
 def extract_text_from_txt(file_path: str) -> str:
@@ -57,8 +77,10 @@ def extract_text_from_txt(file_path: str) -> str:
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
             return file.read()
+        logger.info(f"\n\nText extracted from TXT: {file_path}\n\n")
+
     except Exception as e:
-        print(f"Error extracting text from TXT: {e}")
+        logger.error(f"\n\nError extracting text from TXT {file_path}: {e}\n\n")
         return ""
 
 def extract_text_from_excel(file_path: str) -> str:
@@ -69,9 +91,10 @@ def extract_text_from_excel(file_path: str) -> str:
         for sheet_name, df in dfs.items():
             text += f"Sheet: {sheet_name}\n"
             text += df.to_string(index=False) + "\n\n"
+        logger.info(f"\n\nText extracted from Excel: {file_path}\n\n")
         return text
     except Exception as e:
-        print(f"Error extracting text from Excel: {e}")
+        logger.error(f"\n\nError extracting text from Excel {file_path}: {e}\n\n")
         return ""
 
 def extract_text_from_file(file_path: str) -> str:
@@ -86,12 +109,14 @@ def extract_text_from_file(file_path: str) -> str:
     elif ext in ['.xlsx', '.xls']:
         return extract_text_from_excel(file_path)
     else:
+        logger.warning(f"\n\nUnsupported file type: {file_path}\n\n")
         return ""
 
 def chunk_text(text: str, chunk_size: int = 1000, overlap: int = 200) -> List[str]:
     """Split text into chunks with overlap."""
     chunks = []
     if not text:
+        logger.warning("\n\nEmpty text passed for chunking.\n\n")
         return chunks
     
     start = 0
@@ -110,12 +135,13 @@ def chunk_text(text: str, chunk_size: int = 1000, overlap: int = 200) -> List[st
             
         # Move the start position for the next chunk, considering overlap
         start = end - overlap
-        
+    logger.info(f"\n\nText chunked into {len(chunks)} parts.\n\n")
     return chunks
 
 def create_embeddings(text_chunks: List[str], metadata_list: List[Dict], collection_name: str) -> bool:
     """Create embeddings from text chunks and add to ChromaDB collection."""
     if not text_chunks:
+        logger.warning(f"\n\nNo text chunks to create embeddings for collection {collection_name}.\n\n")
         return False
     
     collection = ensure_collection_exists(collection_name)
@@ -129,7 +155,7 @@ def create_embeddings(text_chunks: List[str], metadata_list: List[Dict], collect
         metadatas=metadata_list,
         ids=ids
     )
-    
+    logger.info(f"\n\nEmbeddings created and added to collection '{collection_name}' with {len(text_chunks)} chunks.\n\n")
     return True
 
 def get_relevant_context(question: str, collection_name: str, n_results: int = 3) -> str:
@@ -169,5 +195,5 @@ def save_upload_file(file_path: str, collection_name: str) -> bool:
         return create_embeddings(chunks, metadata_list, collection_name)
     
     except Exception as e:
-        print(f"Error processing file: {e}")
+        logger.error(f"\n\nError processing file: {e}\n\n")
         return False

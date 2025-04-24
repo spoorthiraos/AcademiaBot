@@ -1,5 +1,10 @@
 import ollama
+import logging
 from typing import List, Dict, Any
+
+
+logging.basicConfig(level=logging.DEBUG) 
+logger = logging.getLogger(__name__)
 
 # Predefined use cases
 USECASES = [
@@ -49,11 +54,13 @@ def classify_use_case(question: str) -> str:
         # Map to valid use case
         for use_case in USECASES:
             if use_case in result:
+                logger.info(f"\n\nUse case is this: {use_case}\n\n")
                 return use_case
         
         # Default to general if no match is found
+        logger.info(f"\n\n Default Use case is this: {use_case}\n\n")
         return "general"
         
     except Exception as e:
-        print(f"Error in classification: {e}")
+        logger.error(f"\n\n Error in classification: {e}\n\n")
         return "general"  # Default to general on error
