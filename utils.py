@@ -8,7 +8,6 @@ import uuid
 from typing import List, Dict, Any, Optional
 from better_profanity import profanity
 import logging
-
 # Initialize logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
