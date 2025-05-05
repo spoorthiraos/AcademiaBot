@@ -1,6 +1,0 @@
-ID	Name	Department	Semester	GPA	Email
-1	Aisha Patel	Computer Science	6	8.7	aisha@example.com
-2	Rahul Verma	Electrical Engg.	4	7.9	rahul@example.com
-3	Sneha Das	Information Tech	2	9.1	sneha@example.com
-4	Arjun Mehta	Mechanical Engg.	8	8.2	arjun@example.com
-5	Meera Iyer	Civil Engineering	3	8.5	meera@example.com

@@ -1,0 +1,66 @@
+Placement Statistics Report for batch 2018-2022
+
+Total Number of Students:
+There are a total of 103 students in this dataset.
+
+Highest Package:
+The highest package is 22 LPA (from PhonePe for Rajnish Kumar).
+
+Lowest Package:
+The lowest package is 2.1 LPA (from Finfolab Technologies for Swethanjali M).
+
+Average Package:
+The average package is approximately 4.47 LPA based on the available data.
+
+Companies Participating:
+The companies that have participated in the placement drive include:
+Infosys
+Wipro
+TCS
+Accenture
+Cognizant
+Capgemini
+Bosch
+PhonePe
+AgilePoint
+Mindtree
+Persistent Systems
+HCL
+Toshiba India
+Epsilon (Off-Campus)
+Axis Bank
+Finfolab Technologies
+ITC Infotech
+Atos Syntel
+Tech Mahindra
+Practo
+Bookishsanta Pvt Ltd (Off-campus)
+Banyan Cloud
+Birlasoft
+6D Technologies
+Global Software Technologies
+Pelatro Solutions Pvt Ltd
+Intellipaat
+Teleradiology Solutions
+GoDigit
+ACMEGRADE
+
+Key Insights:
+The highest-paying company is PhonePe, with a package of 14 LPA for both Akshay Mehrotra and Rajnish Kumar.
+Companies like Wipro, Cognizant, and Capgemini have provided multiple offers across different students, with a wide range of salary packages.
+Several students have received multiple offers, indicating the competitive nature of the placements.
+Top 10 Highest Packages (in LPA)
+22 LPA - Rajnish Kumar (PhonePe)
+14 LPA - Akshay Mehrotra (PhonePe)
+14 LPA - Saif Katingeri (Bookishsanta Pvt Ltd)
+10.02 LPA - Shreyas A Hombal (Epsilon)
+10 LPA - Saikumar Srinivas (GoDigit)
+7.5 LPA - Deepak G (Toshiba India)
+6.75 LPA - Chandu B L (Cognizant)
+6.75 LPA - Harsh Raj (Cognizant)
+6.5 LPA - Nidhi Kumari S (Cognizant)
+6.5 LPA - Vinit Sharma (Accenture)
+
+Other Data
+Most Frequent Companies: Wipro, Cognizant, Accenture, Infosys, Capgemini
+Students with Multiple Offers: Some students have offers from multiple companies (e.g., Bhavya M with Infosys, Wipro, TCS, etc.)

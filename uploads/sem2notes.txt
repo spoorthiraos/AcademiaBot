@@ -1,2 +1,0 @@
-question: what is oops?
-answer: oops is a random concept in java which is useless but asked in many interviews. I don't know why it is used so much.

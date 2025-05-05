@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 
 # Base data path (Windows absolute path)
-BASE_DATA_PATH = r"C:\Users\spoor\Desktop\project-bolt-sb1-n4rrfyud\project\data"
+BASE_DATA_PATH = r"C:\Users\spoor\Desktop\project_final\project\data"
 
 def ingest_documents(directory: str, use_case: str) -> bool:
     """

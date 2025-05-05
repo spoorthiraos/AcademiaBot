@@ -1,0 +1,71 @@
+Placement Statistics Report for batch 2019-2023
+
+Total Students:
+Total Students Placed: 75
+
+Highest and Lowest Packages:
+Highest Package: 30 LPA (Swati Priya, Mu Sigma)
+
+Lowest Package: 3.25 LPA (Multiple students placed in Tech Mahindra, TCS, Cognizant, and others)
+
+Top 10 Highest Packages:
+30 LPA - Swati Priya (Mu Sigma)
+12 LPA - Shivang Yadav (Movella Inc.)
+10 + 2 LPA - Yeshwant Thota (Practo Technologies Pvt Ltd)
+7.5 LPA - Shivang Yadav (Pysphere)
+7 LPA - Arpitha H P (Pentagon Space, Byjus)
+7 LPA + 60k - Amit Kumar Singh (TCS, Cognizant)
+6.5 LPA - Shivang Yadav (Volkswagen IT)
+5.5 LPA - Abhishek (InTime Tec)
+5.5 LPA - Olivia Roy (InTime Tec)
+5 LPA - Bhushan Shettigar (Mu Sigma)
+
+Companies and Number of Students Placed:
+Cognizant - 19 students
+TCS - 14 students
+Accenture - 7 students
+Tech Mahindra - 5 students
+Mars Track Technologies - 5 students
+Mu Sigma - 4 students
+Byjus - 1 student
+Practo Technologies Pvt Ltd - 1 student
+Volkswagen IT - 1 student
+InTime Tec - 2 students
+EDS Technologies - 2 students
+IBM - 2 students
+Accord Global Technology Solutions - 2 students
+Microland - 1 student
+QSpiders - 1 student
+Pentagon Space - 1 student
+Kodnest - 1 student
+
+Designation Offered:
+Programmer Analyst Trainee (Cognizant, TCS)
+Software Engineer (Mars Track Technologies)
+Program Analyst (Cognizant)
+Associate Software Engineer (Accenture)
+Engineer Trainee - Software (Accord Global Technology Solutions)
+Decision Scientist (Mu Sigma)
+Graduate Engineer Trainee (HCL Tech, Microland)
+
+Students with Multiple Offers:
+Abhinav Palak - TCS, Cognizant (3.5 LPA, 4 LPA)
+Amit Kumar Singh - TCS, Cognizant (7 LPA + 60k, 4 LPA)
+Ankit Tiwari - Cognizant, TCS (4 LPA, 4 LPA)
+Shivang Yadav - Movella Inc., Pysphere, Volkswagen IT (12 LPA, 7.5 LPA, 6.5 LPA)
+
+Package Summary:
+Most Common Package: 4 LPA (Offered by Cognizant, TCS, Accenture, and others)
+
+Other Notable Packages:
+3.25 LPA - Common in Tech Mahindra, TCS, Cognizant
+4.5 LPA - Accenture, IBM, EDS Technologies, Cognizant
+5.5 LPA - Mu Sigma, InTime Tec
+
+Additional Insights:
+Companies Offering Internships:
+Accenture: Internship + Full-time (Nuvepro, Accenture)
+Kodnest: Internship
+
+Off-campus Placements: A few students have off-campus placements, e.g., Pentagon Space, Byjus.
+

@@ -1,0 +1,91 @@
+Name,Department,Subject,Experience,Degree,Level,Related Subject Knowledge,Staff Room Floor
+Sandeep Kapoor,Computer Science,Web Technologies,9 yrs,M.Tech,Professor,"Java, AI",Floor 3
+Ravi Jain,Computer Science,Android Development,4 yrs,M.Tech,Associate Professor,"Cloud, SQL",Floor 2
+Dr. Nikhil Jain,Computer Science,Big Data,11 yrs,M.Tech,Professor,"Python, SQL",Floor 1
+Dr. Aditya Reddy,Computer Science,Big Data,15 yrs,Ph.D.,Professor,"AI, React",Floor 1
+Dr. Nikhil Kumar,Computer Science,Web Technologies,12 yrs,M.Tech,Professor,"Python, Java",Floor 2
+Dr. Aditi Rao,Computer Science,AI,10 yrs,Ph.D.,Professor,"React, Kotlin",Floor 3
+Nitin Sinha,Computer Science,OOPs in Java,12 yrs,Ph.D.,Assistant Professor,"Java, Linux",Floor 2
+Dr. Meenakshi Reddy,Computer Science,Software Engineering,7 yrs,Ph.D.,Associate Professor,"Linux, SQL",Floor 1
+Nikhil Rao,Computer Science,Android Development,12 yrs,Ph.D.,Professor,"Networking, Java",Floor 2
+Dr. Ankit Roy,Computer Science,AI,12 yrs,Ph.D.,Associate Professor,"Cloud, Linux",Floor 3
+Sumit Pillai,Computer Science,Operating Systems,14 yrs,M.Tech,Associate Professor,"AI, Networking",Floor 1
+Ankit Sinha,Computer Science,DBMS,9 yrs,M.Tech,Professor,"Python, AI",Floor 2
+Dr. Sanjay Sharma,Computer Science,Data Structures,4 yrs,M.Tech,Associate Professor,"SQL, Networking",Floor 3
+Dr. Sneha Gupta,Computer Science,Computer Networks,6 yrs,M.Tech,Professor,"AI, Python",Floor 3
+Dr. Sandeep Pillai,Computer Science,Operating Systems,3 yrs,M.Tech,Professor,"Java, Python",Floor 1
+Swathi Jain,Computer Science,Cyber Security,3 yrs,M.Tech,Professor,"React, SQL",Floor 3
+Dr. Prateek Patil,Computer Science,Cloud Computing,11 yrs,Ph.D.,Assistant Professor,"Kotlin, AI",Floor 3
+Kavya Joshi,Computer Science,Operating Systems,6 yrs,Ph.D.,Assistant Professor,"Python, AI",Floor 2
+Dr. Rajesh Rao,Computer Science,Operating Systems,11 yrs,Ph.D.,Professor,"Java, Linux",Floor 1
+Veena Menon,Computer Science,Cyber Security,10 yrs,M.Tech,Assistant Professor,"Networking, AI",Floor 2
+Dr. Harish Shah,Computer Science,Python Programming,14 yrs,M.Tech,Professor,"AI, Linux",Floor 1
+Richa Shetty,Computer Science,AI,4 yrs,Ph.D.,Professor,"Cloud, SQL",Floor 1
+Dr. Neha Verma,Computer Science,Big Data,11 yrs,Ph.D.,Associate Professor,"HTML, Java",Floor 3
+Dr. Kavita Menon,Computer Science,Machine Learning,12 yrs,M.Tech,Associate Professor,"Cloud, Linux",Floor 3
+Aditya Reddy,Computer Science,Data Structures,15 yrs,Ph.D.,Professor,"Networking, Java",Floor 3
+Harish Jain,Computer Science,Computer Networks,4 yrs,M.Tech,Assistant Professor,"Linux, HTML",Floor 3
+Sneha Gupta,Computer Science,AI,9 yrs,M.Tech,Assistant Professor,"Linux, Kotlin",Floor 1
+Arjun Rao,Computer Science,Computer Networks,3 yrs,Ph.D.,Associate Professor,"Linux, Python",Floor 3
+Vikas Shetty,Computer Science,Operating Systems,8 yrs,M.Tech,Professor,"Linux, Java",Floor 1
+Dr. Richa Das,Computer Science,Software Engineering,8 yrs,M.Tech,Assistant Professor,"SQL, Linux",Floor 2
+Nitin Joshi,Electronics,Microprocessors,10 yrs,Ph.D.,Assistant Professor,"VHDL, MATLAB",Floor 1
+Rohit Roy,Electronics,Microprocessors,8 yrs,M.Tech,Assistant Professor,"MATLAB, Automation",Floor 1
+Arjun Shah,Electronics,Microprocessors,8 yrs,Ph.D.,Associate Professor,"MATLAB, Circuit Design",Floor 3
+Dr. Neha Gupta,Electronics,Instrumentation,4 yrs,M.Tech,Assistant Professor,"Automation, HDL",Floor 3
+Dr. Rajesh Gupta,Electronics,Control Systems,7 yrs,Ph.D.,Assistant Professor,"HDL, Automation",Floor 2
+Harish Gupta,Electronics,Analog Circuits,8 yrs,Ph.D.,Associate Professor,"VHDL, Circuit Design",Floor 2
+Dr. Aditya Pillai,Electronics,Microprocessors,3 yrs,Ph.D.,Assistant Professor,"MATLAB, Automation",Floor 1
+Aditi Gupta,Electronics,Communication Systems,10 yrs,M.Tech,Assistant Professor,"Circuit Design, HDL",Floor 2
+Dr. Sanjay Das,Electronics,Analog Circuits,8 yrs,M.Tech,Assistant Professor,"Circuit Design, VHDL",Floor 3
+Meenakshi Rao,Electronics,Power Electronics,11 yrs,Ph.D.,Professor,"VHDL, Circuit Design",Floor 3
+Nikhil Roy,Electronics,VLSI,6 yrs,M.Tech,Assistant Professor,"VHDL, Analog Design",Floor 2
+Dr. Priya Pillai,Electronics,Embedded Systems,10 yrs,Ph.D.,Professor,"VHDL, Circuit Design",Floor 3
+Ramesh Das,Electronics,Control Systems,3 yrs,M.Tech,Assistant Professor,"VHDL, Analog Design",Floor 2
+Richa Shetty,Electronics,Instrumentation,5 yrs,Ph.D.,Assistant Professor,"MATLAB, VHDL",Floor 3
+Meenakshi Patil,Electronics,Embedded Systems,15 yrs,Ph.D.,Associate Professor,"Analog Design, MATLAB",Floor 1
+Shweta Joshi,Electronics,Communication Systems,6 yrs,Ph.D.,Associate Professor,"VHDL, Microcontrollers",Floor 2
+Anil Verma,Electronics,Communication Systems,6 yrs,Ph.D.,Assistant Professor,"Microcontrollers, MATLAB",Floor 2
+Veena Shah,Electronics,Microprocessors,11 yrs,Ph.D.,Assistant Professor,"Microcontrollers, Automation",Floor 2
+Meenakshi Shah,Electronics,Embedded Systems,15 yrs,Ph.D.,Professor,"HDL, MATLAB",Floor 1
+Dr. Rajesh Shetty,Electronics,Communication Systems,3 yrs,M.Tech,Professor,"Automation, VHDL",Floor 3
+Dr. Nikhil Rao,Electronics,Digital Electronics,4 yrs,Ph.D.,Assistant Professor,"Automation, VHDL",Floor 1
+Ramesh Sharma,Electronics,Microprocessors,3 yrs,Ph.D.,Professor,"MATLAB, Circuit Design",Floor 2
+Anil Roy,Electronics,Digital Electronics,6 yrs,Ph.D.,Assistant Professor,"HDL, Automation",Floor 1
+Priya Sinha,Electronics,Instrumentation,11 yrs,Ph.D.,Associate Professor,"Analog Design, Microcontrollers",Floor 1
+Rajesh Jain,Electronics,Instrumentation,6 yrs,M.Tech,Assistant Professor,"VHDL, Automation",Floor 1
+Dr. Sagar Das,Electronics,Signals & Systems,3 yrs,M.Tech,Professor,"Microcontrollers, Automation",Floor 2
+Swathi Roy,Electronics,Power Electronics,12 yrs,M.Tech,Professor,"Analog Design, HDL",Floor 3
+Anil Roy,Electronics,Control Systems,13 yrs,M.Tech,Professor,"Microcontrollers, MATLAB",Floor 2
+Harish Menon,Electronics,Analog Circuits,8 yrs,M.Tech,Associate Professor,"HDL, Microcontrollers",Floor 2
+Dr. Tanya Sharma,Electronics,Signals & Systems,10 yrs,M.Tech,Assistant Professor,"Analog Design, Microcontrollers",Floor 1
+Harish Shetty,Mechanical,Thermodynamics,14 yrs,M.Tech,Assistant Professor,"Heat Transfer, SolidWorks",Floor 2
+Dr. Richa Roy,Mechanical,Thermodynamics,15 yrs,M.Tech,Associate Professor,"Heat Transfer, SolidWorks",Floor 1
+Dr. Arjun Pillai,Mechanical,CAD/CAM,9 yrs,Ph.D.,Associate Professor,"SolidWorks, Dynamics",Floor 1
+Aditya Menon,Mechanical,Machine Design,5 yrs,Ph.D.,Assistant Professor,"Sensors, CAM",Floor 1
+Dr. Sagar Roy,Mechanical,Manufacturing Tech.,6 yrs,Ph.D.,Associate Professor,"Heat Transfer, Dynamics",Floor 3
+Dr. Sanjay Sharma,Mechanical,Manufacturing Tech.,3 yrs,M.Tech,Professor,"CAM, Sensors",Floor 3
+Neha Nair,Mechanical,Fluid Mechanics,11 yrs,M.Tech,Associate Professor,"Statics, SolidWorks",Floor 2
+Rohit Kapoor,Mechanical,Mechatronics,9 yrs,M.Tech,Assistant Professor,"CAM, Sensors",Floor 2
+Priya Gupta,Mechanical,Manufacturing Tech.,12 yrs,Ph.D.,Professor,"AutoCAD, Statics",Floor 3
+Neha Iyer,Mechanical,Engineering Drawing,8 yrs,M.Tech,Assistant Professor,"Sensors, SolidWorks",Floor 1
+Dr. Harish Kumar,Mechanical,CAD/CAM,9 yrs,M.Tech,Associate Professor,"Statics, Sensors",Floor 3
+Pooja Das,Mechanical,CAD/CAM,9 yrs,Ph.D.,Professor,"AutoCAD, SolidWorks",Floor 3
+Dr. Sneha Patil,Mechanical,Machine Design,9 yrs,M.Tech,Professor,"Dynamics, Heat Transfer",Floor 3
+Sandeep Jain,Mechanical,Engineering Drawing,9 yrs,M.Tech,Associate Professor,"Sensors, Heat Transfer",Floor 1
+Veena Sharma,Mechanical,Fluid Mechanics,13 yrs,Ph.D.,Professor,"Sensors, Heat Transfer",Floor 1
+Dr. Sanjay Sharma,Mechanical,Kinematics,14 yrs,Ph.D.,Assistant Professor,"AutoCAD, Statics",Floor 3
+Dr. Arjun Verma,Mechanical,Mechanics,5 yrs,Ph.D.,Professor,"Dynamics, SolidWorks",Floor 3
+Dr. Ravi Iyer,Mechanical,Thermodynamics,14 yrs,Ph.D.,Associate Professor,"SolidWorks, Heat Transfer",Floor 2
+Dr. Shweta Rao,Mechanical,Heat Transfer,12 yrs,M.Tech,Associate Professor,"AutoCAD, CAM",Floor 1
+Dr. Sandeep Roy,Mechanical,Mechatronics,13 yrs,M.Tech,Assistant Professor,"Dynamics, AutoCAD",Floor 1
+Ravi Roy,Mechanical,Kinematics,15 yrs,M.Tech,Professor,"SolidWorks, Heat Transfer",Floor 1
+Neha Nair,Mechanical,CAD/CAM,15 yrs,M.Tech,Professor,"Heat Transfer, AutoCAD",Floor 2
+Dr. Sanjay Verma,Mechanical,Machine Design,4 yrs,M.Tech,Assistant Professor,"Sensors, Heat Transfer",Floor 2
+Sumit Rao,Mechanical,Fluid Mechanics,9 yrs,M.Tech,Associate Professor,"AutoCAD, CAM",Floor 1
+Dr. Nitin Gupta,Mechanical,Mechanics,11 yrs,M.Tech,Associate Professor,"SolidWorks, AutoCAD",Floor 2
+Veena Sinha,Mechanical,CAD/CAM,3 yrs,M.Tech,Associate Professor,"CAM, Statics",Floor 2
+Sagar Gupta,Mechanical,Engineering Drawing,9 yrs,M.Tech,Assistant Professor,"AutoCAD, SolidWorks",Floor 3
+Sagar Joshi,Mechanical,Kinematics,8 yrs,M.Tech,Assistant Professor,"Heat Transfer, Sensors",Floor 2
+Richa Das,Mechanical,Kinematics,6 yrs,M.Tech,Professor,"CAM, Statics",Floor 3
+Sanjay Nair,Mechanical,Manufacturing Tech.,8 yrs,Ph.D.,Assistant Professor,"AutoCAD, Sensors",Floor 2

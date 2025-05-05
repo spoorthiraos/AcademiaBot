@@ -71,6 +71,18 @@ def extract_text_from_pdf(file_path: str) -> str:
         logger.error(f"\n\nError extracting text from PDF {file_path}: {e}\n\n")
     return text
 
+def extract_text_from_csv(file_path: str) -> str:
+    try:
+        df = pd.read_csv(file_path)
+        rows = []
+        for i, row in df.iterrows():
+            row_text = " | ".join([f"{col}: {row[col]}" for col in df.columns])
+            rows.append(row_text)
+        return "\n\n".join(rows)
+    except Exception as e:
+        logger.error(f"\n\nError extracting text from PDF {file_path}: {e}\n\n")
+        return ""
+
 def extract_text_from_txt(file_path: str) -> str:
     """Extract text from a TXT file."""
     try:
@@ -107,6 +119,8 @@ def extract_text_from_file(file_path: str) -> str:
         return extract_text_from_txt(file_path)
     elif ext in ['.xlsx', '.xls']:
         return extract_text_from_excel(file_path)
+    elif ext == '.csv':
+        return extract_text_from_csv(file_path)
     else:
         logger.warning(f"\n\nUnsupported file type: {file_path}\n\n")
         return ""
